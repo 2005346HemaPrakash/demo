@@ -2,7 +2,8 @@
 #include "stdlib.h"
 
 int main(){
-  
-  printf("hello world");
+  int x;
+  scanf("%d",&x);
+  printf("hello world : %d",x);
   return 0;
 }

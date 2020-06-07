@@ -3,7 +3,9 @@
 
 int main(){
   int x;
-  scanf("%d",&x);
-  printf("hello world : %d",x);
+  char name[5];
+  printf("Enter the name:\n");
+  scanf("%s",name);
+  printf("%s\n",name);
   return 0;
 }
